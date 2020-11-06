@@ -21,6 +21,7 @@
 		<input type="hidden" value="${dto.writer}" name="writer">
 		제목: <input type="text" value="${dto.title}" name="title">
 		내용: <input type="text" value="${dto.content}" name="content">
+		작성일: ${dto.date}
 		<input type="submit" value="수정하기">
 		<input type="button" value ="삭제하기" onclick ="location.href='viewDelete.do?no=${dto.no}'">
 		<input type="button" value ="홈으로" onclick ="location.href='boardList.do'">
